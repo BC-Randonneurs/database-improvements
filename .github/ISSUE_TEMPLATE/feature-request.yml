@@ -1,0 +1,27 @@
+name: Feature request
+description: Request new functionality or an improvement.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: target-user
+    attributes:
+      label: Target user
+      description: Who would use or benefit from this feature?
+      placeholder: 'This issue targets: ...'
+    validations:
+      required: true
+  - type: textarea
+    id: functionality
+    attributes:
+      label: Functionality
+      description: Describe what you want to do and why.
+      placeholder: 'As a user, I want ... so that I can ...'
+    validations:
+      required: true
+  - type: textarea
+    id: considerations
+    attributes:
+      label: Considerations
+      description: Describe constraints, related behavior, or suggested approaches. Write None if there are none.
+    validations:
+      required: true
